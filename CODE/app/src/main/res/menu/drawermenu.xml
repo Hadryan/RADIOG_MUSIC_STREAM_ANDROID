@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_premium"
+            android:icon="@drawable/ic_small_crown"
+            android:title="@string/premium" />
+        <item
+            android:id="@+id/nav_free"
+            android:icon="@drawable/ic_free"
+            android:title="@string/free" />
+        <item
+            android:id="@+id/nav_hits"
+            android:icon="@drawable/ic_hits"
+            android:title="Hits" />
+        <item
+            android:id="@+id/nav_selected"
+            android:icon="@drawable/ic_selected"
+            android:title="Selected" />
+        <item
+            android:id="@+id/nav_mylist"
+            android:icon="@drawable/ic_mylist"
+            android:title="My List" />
+        <item
+            android:id="@+id/nav_exclusive"
+            android:icon="@drawable/ic_exclusive"
+            android:title="Exclusive" />
+        <item
+            android:id="@+id/nav_newalbum"
+            android:icon="@drawable/ic_music_album"
+            android:title="New Album" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_offline"
+            android:icon="@drawable/ic_cloud_storage_download"
+            android:title="Offline" />
+        <!--<item-->
+            <!--android:id="@+id/nav_settings"-->
+            <!--android:icon="@drawable/ic_settings_gears"-->
+            <!--android:title="Settings" />-->
+        <item
+            android:id="@+id/nav_subscription"
+            android:icon="@drawable/ic_package"
+            android:title="Subscription" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_notice"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language"
+            android:title="Language" />
+
+        <!--<item-->
+            <!--android:orderInCategory="999"-->
+            <!--android:title="Others">-->
+            <!--<menu>-->
+                <!--<group-->
+                    <!--android:checkableBehavior="single"-->
+                    <!--android:orderInCategory="999">-->
+                    <!--<item-->
+                        <!--android:id="@+id/nav_more"-->
+                        <!--android:icon="@drawable/ic_old_radio_with_antenna"-->
+                        <!--android:title="Exclusive Collection" />-->
+                    <!--<item-->
+                        <!--android:id="@+id/nav_about"-->
+                        <!--android:icon="@drawable/ic_old_radio_with_antenna"-->
+                        <!--android:title="New Album" />-->
+                <!--</group>-->
+            <!--</menu>-->
+        <!--</item>-->
+    </group>
+</menu>
+

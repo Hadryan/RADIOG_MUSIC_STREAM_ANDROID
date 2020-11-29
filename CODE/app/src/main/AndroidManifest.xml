@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.radiogbd.streaming.apps.mars">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>-->
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <!--<uses-permission android:name="android.permission.RECEIVE_SMS" />-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!--<uses-permission android:name="android.permission.READ_SMS" />-->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+
+    <application
+        android:name=".App.MyApplication"
+        android:allowBackup="false"
+        android:icon="@drawable/rg"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".Activity.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity.DeepLink"
+            android:launchMode="singleInstance"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="com.androidsrc.launchfrombrowser" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Accepts URIs that begin with "http://www.example.com/gizmos” -->
+                <!--<data android:scheme="http"
+                    android:host="a.radiogbd.com" />-->
+                <!-- note that the leading "/" is required for pathPrefix-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.PlayList"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity.BrowserActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Activity.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Player"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.Notification" />
+        <activity
+            android:name=".Activity.Settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".Service.MusicService"
+            android:enabled="true" />
+        <service
+            android:name=".Service.TimerService"
+            android:enabled="true" />
+        <service
+            android:name=".Service.DownloadService"
+            android:enabled="true" />
+
+        <receiver android:name=".Receiver.AlarmReceiver" />
+        <receiver android:name=".Receiver.ServiceIgniter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".Receiver.FirebaseReceiver">
+            <intent-filter>
+                <action android:name="com.radiogbd.streaming.apps.firebase" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Firebase Configuration -->
+        <service android:name=".Firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Firebase.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <!-- Google Analytics Setup -->
+        <!--<receiver-->
+        <!--android:name="com.google.android.gms.analytics.AnalyticsReceiver"-->
+        <!--android:enabled="true">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+
+        <!--<service-->
+        <!--android:name="com.google.android.gms.analytics.AnalyticsService"-->
+        <!--android:enabled="true"-->
+        <!--android:exported="false" />-->
+
+        <!--
+             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting
+        -->
+        <!--<receiver-->
+        <!--android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"-->
+        <!--android:exported="true">-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.android.vending.INSTALL_REFERRER" />-->
+        <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<service android:name="com.google.android.gms.analytics.CampaignTrackingService" />-->
+    </application>
+
+</manifest>

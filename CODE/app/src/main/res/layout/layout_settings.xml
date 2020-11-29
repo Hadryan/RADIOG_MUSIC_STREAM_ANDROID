@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_back_button"
+            android:tint="@color/buttonColor"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Settings"
+            android:textColor="@color/pureWhite"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:paddingBottom="5dp"
+            android:text="Language"
+            android:textColor="@color/pureWhite"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <com.kyleduo.switchbutton.SwitchButton
+            android:id="@+id/languageSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:checked="true"
+            app:kswBackColor="@color/barEndingColor"
+            app:kswThumbColor="@color/buttonColor"
+            app:kswTextOn="English"
+            app:kswTextOff="@string/bangla"
+            android:textColor="@color/pureWhite"
+            android:padding="5dp"
+            android:textSize="14sp"
+            app:kswTextExtra="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp">
+        </com.kyleduo.switchbutton.SwitchButton>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ashLight"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:layout_weight="1"
+                android:paddingBottom="5dp"
+                android:text="Sleep Timer"
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingBottom="5dp"
+                android:text="00:00:00"
+                android:textColor="@color/pureWhite"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/serviceStopState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="visible"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/sleepTime"
+                android:layout_width="100dp"
+                android:layout_height="27dp"
+                android:hint="120 Minutes"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:maxLength="3"
+                android:inputType="numberSigned"
+                android:background="@drawable/oval_et_stroke"/>
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:text="START"
+                android:textSize="12sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/pureWhite"
+                android:background="@drawable/rounded_red_solid"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/serviceStartState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:text="Cancel"
+                android:textSize="12sp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/pureWhite"
+                android:background="@drawable/rounded_red_solid"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ashLight"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Data Usage"
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/dataCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:gravity="left"
+                android:paddingBottom="5dp"
+                android:text="345.49 MB"
+                android:textColor="@color/pureWhite"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+
+        <!--<Button-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:text="RESET"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="12sp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@color/pureWhite"-->
+            <!--android:background="@drawable/rounded_red_solid"/>-->
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/pureWhiteLight"
+        android:text="* Please note data usage can not be reset. If you really want to please restart your device."/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/ashLight"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>

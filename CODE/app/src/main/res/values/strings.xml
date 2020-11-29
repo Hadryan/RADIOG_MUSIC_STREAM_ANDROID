@@ -1,0 +1,392 @@
+<resources>
+    <string name="app_name">RadioG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="release_date_bn">মুক্তির তারিখ</string>
+    <string name="release_date_en">Release Date</string>
+
+    <!-- Drawer Menu English List -->
+    <string name="home">Home</string>
+    <string name="premium">Premium</string>
+    <string name="free">Free</string>
+    <string name="hits">Hits</string>
+    <string name="selected">Selected</string>
+    <string name="mylist">My List</string>
+    <string name="exclusive">Exclusive</string>
+    <string name="new_album">New Album</string>
+    <string name="catagory">Category</string>
+    <string name="settings">Settings</string>
+    <string name="offline">Offline</string>
+    <string name="notice">Notice</string>
+    <string name="subscription">Subscription</string>
+
+    <string name="hit_bn">জনপ্রিয়</string>
+
+    <!-- Drawer Menu Bangla List -->
+    <string name="home_bn">হোম</string>
+    <string name="premium_bn">প্রিমিয়াম</string>
+    <string name="free_bn">ফ্রি</string>
+    <string name="hits_bn">জনপ্রিয়</string>
+    <string name="selected_bn">নির্বাচিত গান</string>
+    <string name="mylist_bn">আমার লিস্ট</string>
+    <string name="exclusive_bn">এক্সক্লুসিভ আয়োজন</string>
+    <string name="new_album_bn">নতুন এলবাম</string>
+    <string name="catagory_bn">ক্যাটাগরী</string>
+    <string name="settings_bn">সেটিংস</string>
+    <string name="offline_bn">অফলাইন</string>
+    <string name="notice_bn">নোটিশ</string>
+    <string name="subscription_bn">সাবস্ক্রিপশন</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_songlist">SonglistActivity</string>
+    <string name="freezoneText">Selected Songs</string>
+    <string name="hitsText">Hit Songs</string>
+    <string name="mylistText">My List</string>
+    <string name="titleEn">Welcome to RadioG</string>
+    <string name="titleBn">রেডিওজি তে স্বাগতম</string>
+
+    <string name="exclusive_tab_bn">এক্সক্লুসিভ</string>
+    <string name="new_tab_bn">নতুন</string>
+    <string name="category_tab_bn">ক্যাটাগরী</string>
+
+    <string name="exclusive_tab">Exclusive</string>
+    <string name="new_tab">New</string>
+    <string name="category_tab">Category</string>
+
+
+    <string name="artist_bn">আর্টিস্ট</string>
+    <string name="lyrics_bn">লিরিকস</string>
+
+    <string name="artist">Artist</string>
+    <string name="lyrics">Lyrics</string>
+
+    <string-array name="MainActivity_Bangla">
+        <item>এক্সক্লুসিভ</item>
+        <item>নতুন</item>
+        <item>ক্যাটাগরী</item>
+    </string-array>
+
+    <string-array name="MainActivity_English">
+        <item>Exclusive</item>
+        <item>New</item>
+        <item>Categories</item>
+    </string-array>
+
+    <string-array name="Search_English">
+        <item>Artist</item>
+        <item>Album</item>
+        <item>Song</item>
+    </string-array>
+
+    <string-array name="Search_Bangla">
+        <item>শিল্পী</item>
+        <item>অ্যালবাম</item>
+        <item>গান</item>
+    </string-array>
+    <string name="title_activity_player">RadioG</string>
+    <string name="title_activity_abum_artist">RadioG</string>
+    <string name="max_text">See All</string>
+    <string name="welcome_radiog">Welcome to RadioG</string>
+    <string name="title_activity_list_artist_albm">RadioG</string>
+
+    <string-array name="etisalat_ips">
+        <item>37.245.160.0/20</item>
+        <item>5.38.0.0/19</item>
+        <item>31.218.128.0/20</item>
+        <item>176.204.112.0/20</item>
+        <item>176.204.144.0/20</item>
+        <item>176.204.64.0/20</item>
+        <item>176.204.96.0/20</item>
+        <item>176.204.16.0/20</item>
+        <item>2.48.64.0/20</item>
+        <item>2.48.128.0/19</item>
+        <item>2.48.160.0/19</item>
+        <item>31.219.96.0/19</item>
+        <item>176.204.32.0/19</item>
+        <item>94.58.128.0/19</item>
+        <item>31.218.176.0/20</item>
+        <item>2.48.32.0/19</item>
+        <item>176.204.160.0/19</item>
+        <item>31.218.0.0/19</item>
+        <item>31.218.32.0/19</item>
+        <item>94.57.48.0/21</item>
+        <item>94.57.164.0/22</item>
+        <item>5.38.32.0/19</item>
+        <item>2.48.118.0/23</item>
+        <item>2.48.120.0/23</item>
+        <item>2.48.122.0/23</item>
+        <item>2.48.124.0/23</item>
+        <item>2.48.126.0/23</item>
+        <!--<item>10.128.138.0/20</item>-->
+        <!--<item>10.128.84.0/20</item>-->
+    </string-array>
+    <string-array name="country_code">
+        <item>ae</item>
+        <!--<item>bd</item>-->
+    </string-array>
+    <string name="app_permission">This app require SMS Receive and Read permission to obtain auto OTP enter. Please note this is important to get RadioG App fully functional.</string>
+    <!-- RECODED STRING VALUES -->
+    <string name="exit_message_en">Are you sure want to Exit?</string>
+    <string name="exit_message_bn">আপনি কি বের হতে চান?</string>
+    <string name="tag">RadioG</string>
+    <string name="image_url">http://www.radiogbd.com</string>
+
+    <string name="cat_image_url">http://www.radiogbd.com/images/categories/</string>
+    <string name="short_code">1110</string>
+    <string name="bangla">বাংলা</string>
+
+    <string name="task">Notification</string>
+
+
+    <string name="featuring_bn">ফিচারিং</string>
+    <string name="featuring_en">Featuring</string>
+
+    <string name="playing_bn">এখন চলছে</string>
+    <string name="playing_en">Now Playing</string>
+
+    <string name="album_bn">অ্যালবাম</string>
+    <string name="album_en">Album</string>
+
+    <string name="one">১</string>
+    <string name="two">২</string>
+    <string name="three">৩</string>
+    <string name="four">৪</string>
+    <string name="five">৫</string>
+    <string name="six">৬</string>
+    <string name="seven">৭</string>
+    <string name="eight">৮</string>
+    <string name="nine">৯</string>
+    <string name="zero">০</string>
+
+    <string name="search_track">গান</string>
+    <string name="search_album">অ্যালবাম</string>
+    <string name="search_artist">আর্টিস্ট</string>
+    <string name="search_lyrics">লিরিকস</string>
+    <string name="search_tune">টিউন</string>
+    <string name="see_more">আরো দেখতে</string>
+    <string name="no_data">ডাটা নেই</string>
+    <string name="search_result">আপনার অনুসন্ধান</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="exit_message">আপনি কি বের হতে চান?</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="exit">বাহির</string>
+    <string name="next_song">পরবর্তী গান</string>
+
+    <string-array name="schedules">
+        <item>11:30</item>
+        <item>19:30</item>
+    </string-array>
+
+    <string name="notificationBn">উপভোগ করুন নতুন অ্যালবাম</string>
+    <string name="notificationEn">Enjoy our latest album</string>
+
+    <string name="no_internet">No Internet</string>
+    <string name="http_error">HTTP Server Error</string>
+
+    <!-- API AUTHORIZATION KEYS -->
+    <string name="robi_athurization_key">Basic YWRtaW46R3RlY2hTRFBWMQ==</string>
+    <string name="authorization_key">Basic Z3RlY2g6Z3RlY2gzMjE=</string>
+
+    <string name="robi_premium_message_bn">প্রিমিয়াম গান শুনতে/ডাউনলোড করতে সাপ্তাহিক সাবস্ক্রিপশন প্রয়োজন, যা ৬.৩৮ টাকা প্রতি সপ্তাহে (অটো রিনিউয়াল)। আপনি হ্যাঁ বাটন চাপলে ইউএসএসডি এর জন্য অপেক্ষা করুন।</string>
+    <string name="robi_premium_message_en">Please Subscribe to Listen/Download Premium Content with BDT 6.38 Per Week (Auto Renewal). If you press yes then wait for USSD confirmation.</string>
+
+    <string name="bangalink_premium_message_bn">প্রিমিয়াম গান শুনতে/ডাউনলোড করতে দৈনিক সাবস্ক্রিপশন প্রয়োজন, যা ২.৫৫ টাকা প্রতি দিন। আপনি কি নিবন্ধন করতে চান?</string>
+    <string name="banglalink_premium_message_en">Please Subscribe to Listen/Download Premium Content with BDT 2.55 Per Day. Are you sure want to subscribe?</string>
+
+    <string name="gp_premium_message_bn">এই গানটি শুনতে ১/৫/১০/২০/৪০/৫০ টাকা চার্জ প্রযোজ্য। আপনি কি আগ্রহী?</string>
+    <string name="gp_premium_message_en">To listen the song charge 1/5/10/20/40/50 Taka applicable. Are you sure want to proceed?</string>
+
+    <string name="bkash_premium_message_bn">রেডিওজি অ্যাপের মাধ্যমে যেকোন ধরনের গান শুনতে বিকাশ নাম্বার নিবন্ধন প্রয়োজন। নিবন্ধিত হয়ে যাওয়ার পর রেডিওজি সাবস্ক্রিপশন চার্জ আপনার বিকাশ নম্বর থেকে অনুমতি সাপেক্ষে কেটে নেয়া হবে। বিকাশ-এর রেডিওজি সার্ভিসে আপনাকে স্বাগতম।</string>
+    <string name="bkash_premium_message_en">To listen the song from RadioG app, bKash number registration is required. After the registration RadioG subscription charge will be deducted from the bKash number with your permission. Welcome to the bKash RadioG service.</string>
+
+    <string name="meesage_en">Your request is being precessed. You will get a SMS notification, when your service will be deactivated. Please check after a while.</string>
+    <string name="meesage_bn">আপনার আবেদনটি প্রসেস করা হচ্ছে. আপনি একটি এসএমএস পাবেন, যখন আপনার রিকোয়েস্ট বন্ধ হবে। দয়া করে কিছুক্ষন পর চেষ্টা করুন।</string>
+
+    <string name="robi_confirmation_msg_bn">আপনার আবেদনটি প্রসেস করা হচ্ছে. আপনি একটি ইউএসএসডি মেসেজ পাবেন, যেখানে আপনাকে ১ চাপতে হবে। তারপর আপনি একটি এসএমএস পাবেন, যখন আপনার রিকোয়েস্ট চালু হবে। দয়া করে কিছুক্ষন পর চেষ্টা করুন।</string>
+    <string name="robi_confirmation_msg_en">Your request is being processed. You will get an USSD pop up. Please press 1 for confirmation. Then you will get a SMS notification, when your service will be activated. Please check after a while.</string>
+    <string name="gp_confirmation_msg_bn">আপনার আবেদনটি প্রসেস করা হচ্ছে. আপনি একটি এসএমএস পাবেন, যখন আপনার রিকোয়েস্ট চালু হবে। দয়া করে কিছুক্ষন পর চেষ্টা করুন।</string>
+    <string name="gp_confirmation_msg_en">Your request is being precessed. You will get a SMS notification, when your service will be activated. Please check after a while.</string>
+    <string name="banglalink_confirmation_msg_bn">আপনার আবেদনটি প্রসেস করা হচ্ছে. আপনি একটি এসএমএস পাবেন, যখন আপনার রিকোয়েস্ট চালু হবে। দয়া করে কিছুক্ষন পর চেষ্টা করুন।</string>
+    <string name="banglalink_confirmation_msg_en">Your request is being precessed. You will get a SMS notification, when your service will be activated. Please check after a while.</string>
+
+    <string name="bkash_registration_en">bKash Payment</string>
+    <string name="bkash_registration_bn">বিকাশ পেমেন্ট</string>
+
+    <string name="ok_en">Ok</string>
+    <string name="ok_bn">ঠিক আছে</string>
+
+    <string name="service_number_bn">সার্ভিস নাম্বারঃ</string>
+    <string name="service_number_en">Service Number:</string>
+    <string name="service_operator_bn">সার্ভিস অপারেটরঃ</string>
+    <string name="service_operator_en">Service Operator:</string>
+    <string name="service_status_bn">সার্ভিস স্যাটাসঃ</string>
+    <string name="service_status_en">Service Status:</string>
+    <string name="status_on_bn">চালু</string>
+    <string name="status_on_en">On</string>
+    <string name="status_off_bn">বন্ধ</string>
+    <string name="status_off_en">Off</string>
+    <string name="robi_package_bn">প্যাকেজঃ রেডিওজি সাপ্তাহিক</string>
+    <string name="robi_package_en">Package: RadioG Weekly</string>
+    <string name="blink_package_bn">প্যাকেজঃ রেডিওজি দৈনিক</string>
+    <string name="blink_package_en">Package: RadioG Daily</string>
+    <string name="rg_monthly_bn">প্যাকেজঃ রেডিওজি মাসিক</string>
+    <string name="rg_monthly_en">Package: RadioG Monthly</string>
+    <string name="gp_package_bn">প্যাকেজঃ রেডিওজি</string>
+    <string name="gp_package_en">Package: RadioG</string>
+    <string name="button_on_bn">চালু করুন</string>
+    <string name="button_on_en">Start</string>
+    <string name="button_off_bn">বন্ধ করুন</string>
+    <string name="button_off_en">Stop</string>
+    <string name="renew_bn">নবায়ন</string>
+    <string name="renew_en">Renew</string>
+
+    <string name="premium_service_bn">প্রিমিয়াম সার্ভিস সাপ্তাহিক সাবস্ক্রিপশন, যা ৬.৩৮ টাকা প্রতি সপ্তাহে। আপনি হ্যাঁ বাটন চাপলে ইউএসএসডি এর জন্য অপেক্ষা করুন।</string>
+    <string name="premium_service_en">Please Subscribe to Premium Content with BDT 6.38 Per Week. If you press yes then wait for USSD confirmation.</string>
+
+    <string-array name="operator">
+        <item>16</item>     <!-- Airtel -->
+        <item>17</item>     <!-- GP -->
+        <item>18</item>     <!-- Robi -->
+        <item>19</item>     <!-- Banglalink -->
+    </string-array>
+
+    <string-array name="operator_name">
+        <item>Grameephone</item>
+        <item>Robi/Airtel</item>
+        <item>Banglalink</item>
+    </string-array>
+
+    <string name="unsub_msg_en">You are not subscribed</string>
+    <string name="unsub_msg_bn">আপনি সাবস্ক্রাইব না</string>
+
+    <string name="unsub_btn_en">Subscribe Now</string>
+    <string name="unsub_btn_bn">সাবস্ক্রিপশন করুন</string>
+
+    <string name="number_msg_en">If you want to listen any kind of Premium Content within this app, Subscription is required. Please provide your number below and Subscribe.</string>
+    <string name="number_msg_bn">রেডিওজি অ্যাপের মাধ্যমে যেকোন ধরনের প্রিমিয়াম গান শুনতে সাবস্ক্রিপশন প্রয়োজন। দয়া করে নিচে আপনার মোবাইল নাম্বারটি লিখুন আর সাবস্ক্রাইব করুন।</string>
+    <string name="number_cancel_btn_en">Cancel</string>
+    <string name="number_cancel_btn_bn">বাতিল করুন</string>
+    <string name="number_submit_btn_en">Submit</string>
+    <string name="number_submit_btn_bn">সাবমিট করুন</string>
+
+    <string name="number_pin_en">Please provide your PIN below and Subscribe.</string>
+    <string name="number_pin_bn">দয়া করে নিচে আপনার পিন নাম্বারটি লিখুন আর সাবস্ক্রাইব করুন।</string>
+
+    <string name="pin_hint_bn"></string>
+    <string name="pin_hint_en">Mobile No. e.g. [8801XXXXXXXXX]</string>
+    <string name="number_hint_bn"></string>
+    <string name="number_hint_en">4-Digit PIN e.g. [XXXX]</string>
+
+    <integer name="list_min_data_count">2</integer>
+
+    <string name="share_url">http://a.radiogbd.com/</string>
+
+    <string name="play_store_link" translatable="false">https://play.google.com/store/apps/details?id=com.radiogbd.streaming.apps</string>
+
+    <string name="gp_en">Grameenphone</string>
+    <string name="gp_bn">গ্রামীণফোন</string>
+    <string name="rb_en">Robi</string>
+    <string name="rb_bn">রবি</string>
+    <string name="bl_en">Banglalink</string>
+    <string name="bl_bn">বাংলালিংক</string>
+    <string name="bk_gr_en">Ghoori - bKash</string>
+    <string name="bk_gr_bn">ঘুড়ি - বিকাশ</string>
+    <string name="bk_on_en">Fundesh - bKash</string>
+    <string name="bk_on_bn">ফানদেশ - বিকাশ</string>
+
+    <string-array name="operator_list_en">
+        <item>Select Operator</item>
+        <item>Grameenphone</item>
+        <item>Robi</item>
+        <item>Airtel</item>
+        <item>Banglalink</item>
+        <item>Teletalk</item>
+        <item>bKash</item>
+    </string-array>
+
+    <string-array name="operator_list_bn">
+        <item>অপারেটর নির্বাচন করুন</item>
+        <item>গ্রামীণফোন</item>
+        <item>রবি</item>
+        <item>এয়ারটেল</item>
+        <item>বাংলালিংক</item>
+        <item>টেলিটক</item>
+        <item>বিকাশ</item>
+    </string-array>
+
+    <string name="share_en">Share</string>
+    <string name="share_bn">শেয়ার</string>
+    <string name="download_en">Offline</string>
+    <string name="download_bn">অফলাইন</string>
+    <string name="song_en">Track</string>
+    <string name="song_bn">গান</string>
+
+    <string name="gp_message_en">Grameenphone \nSubscription without autorenewal</string>
+    <string name="gp_message_bn">গ্রামীণফোন \nসাবস্ক্রিপশন। অটোরিনিউয়াল নয়।</string>
+    <string name="gp_daily_message_en">Charge: 2Tk+(VAT+SD+SC) for 1 Day only. No Renewal.</string>
+    <string name="gp_daily_message_bn">২টাকা+(ভ্যাট + এসডি + এসসি) - মেয়াদ ১ দিন (অটোরিনিউয়াল প্রযোজ্য নয়)</string>
+    <string name="gp_weekly_message_en">Charge: 5Tk+(VAT+SD+SC) for 7 Days only. No Renewal.</string>
+    <string name="gp_weekly_message_bn">৫টাকা+(ভ্যাট + এসডি + এসসি) - মেয়াদ ৭ দিন (অটোরিনিউয়াল প্রযোজ্য নয়)</string>
+    <string name="gp_month_message_en">Charge: 20Tk+(VAT+SD+SC) for 30 Days only. No Renewal.</string>
+    <string name="gp_month_message_bn">২০টাকা+(ভ্যাট + এসডি + এসসি) - মেয়াদ ৩০ দিন (অটোরিনিউয়াল প্রযোজ্য নয়)</string>
+    <string name="rb_message_en">Robi \nWeekly 5TK+(VAT+SD+SC), with autorenewal.</string>
+    <string name="rb_message_bn">রবি \nসপ্তাহ ৫ টাকা+( ভ্যাট + এসডি +এসসি ), অটোরিনিউয়াল</string>
+    <string name="bl_message_en">Banglalink \nDaily	2TK+(VAT+SD+SC), with autorenewal.</string>
+    <string name="bl_message_bn">বাংলালিংক \nপ্রতিদিন ২ টাকা+( ভ্যাট + এসডি +এসসি ), অটোরিনিউয়াল</string>
+    <string name="bk_gr_message_en">Ghoori Portal - bKash \nBDT 20/Month.</string>
+    <string name="bk_gr_message_bn">ঘুড়ি পোর্টাল - বিকাশ \n২০ টাকা/মাসিক</string>
+    <string name="bk_on_message_en">Fundesh - bKash \nBDT 20/Month.</string>
+    <string name="bk_on_message_bn">ফানদেশ - বিকাশ \n২০ টাকা/মাসিক</string>
+    <string name="skitto_message_en">Skitto - Subscription</string>
+    <string name="skitto_message_bn">Skitto - সাবস্ক্রিপশন</string>
+    <string name="bl1_message_en">Banglalink - Subscription</string>
+    <string name="bl1_message_bn">Banglalink - সাবস্ক্রিপশন</string>
+    <string name="skitto_daily_message_en">Daily BDT 2.55 (with SD, VAT and Surcharge)</string>
+    <string name="skitto_daily_message_bn">দৈনিক - ২.৫৫ টাকা (এসডি, ভ্যাট ও সারচার্জ সহ)</string>
+    <string name="skitto_weekly_message_en">Weekly BDT 6.38 (with SD, VAT and Surcharge)</string>
+    <string name="skitto_weekly_message_bn">সাপ্তাহিক - ৬.৩৮ টাকা (এসডি, ভ্যাট ও সারচার্জ সহ)</string>
+    <string name="skitto_month_message_en">Monthly BDT 25.50 (with SD, VAT and Surcharge)</string>
+    <string name="skitto_month_message_bn">মাসিক - ২৫.৫০ টাকা (এসডি, ভ্যাট ও সারচার্জ সহ)</string>
+    <string name="check_subscription_en">Check Subscription</string>
+    <string name="check_subscription_bn">যাচাই সাবস্ক্রিপশন</string>
+    <string name="submit_en">Submit</string>
+    <string name="submit_bn">নিবন্ধন</string>
+    <string name="mobile_en">Mobile:</string>
+    <string name="mobile_bn">মোবাইলঃ</string>
+    <string name="package_en">Package:</string>
+    <string name="package_bn">প্যাকেজঃ</string>
+    <string name="end_time_en">Time End:</string>
+    <string name="end_time_bn">সময় শেষঃ</string>
+    <string name="subscription_confirmation_message_en">Are you sure want to choose the following plan?</string>
+    <string name="subscription_confirmation_message_bn">আপনি কি নিম্নোক্ত প্লান বাছাই করতে চান?</string>
+    <string name="price_msg_en">Operator and Price: </string>
+    <string name="price_msg_bn">অপারেটর এবং মূল্যঃ </string>
+
+    <string name="tag_gp">GP</string>
+    <string name="tag_rb">RB</string>
+    <string name="tag_bl">BL</string>
+    <string name="tag_gr">BK</string>
+    <string name="tag_on">ON</string>
+    <string name="tag_skitto">SK</string>
+    <string name="tag_daily_skitto">SK_DAILY</string>
+    <string name="tag_weekly_skitto">SK_WEEKLY</string>
+    <string name="tag_monthly_skitto">SK_MONTHLY</string>
+
+    <string-array name="tags">
+        <item>@string/tag_gp</item>
+        <item>@string/tag_rb</item>
+        <item>@string/tag_bl</item>
+        <item>@string/tag_gr</item>
+        <item>@string/tag_on</item>
+        <item>@string/tag_skitto</item>
+    </string-array>
+
+</resources>

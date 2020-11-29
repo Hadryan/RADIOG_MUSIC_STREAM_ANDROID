@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <!-- Subscribed View -->
+    <LinearLayout
+        android:id="@+id/ll_subscribed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_msisdn_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_msisdn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_operator_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_operator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_status_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/buttonColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btn_action"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_button"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="@dimen/btn_font_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_time_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="start"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/ashLight" />
+    </LinearLayout>
+
+    <!-- Unsubscribed View -->
+    <LinearLayout
+        android:id="@+id/ll_unsusbcribed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:visibility="gone">
+        <!--<TextView
+            android:id="@+id/unsubscribeMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You are not subscribed"
+            android:textColor="@color/pureWhite"
+            android:gravity="center"
+            android:textSize="@dimen/font_size_big"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/unsubscribeBtn"
+            android:layout_width="160dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_red_solid"
+            android:text="Subscribe Now"
+            android:textColor="@color/pureWhite"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size_big"/>-->
+
+
+        <TextView
+            android:id="@+id/tv_number_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Write your number"
+            android:textColor="@color/pureWhite"
+            android:textSize="@dimen/font_size_big"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="@color/buttonColor" />
+
+        <EditText
+            android:id="@+id/et_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_et_stroke"
+            android:gravity="start"
+            android:hint="e.g. 01XXXXXXXXX"
+            android:inputType="number"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="8dp"
+            android:textSize="@dimen/font_size" />
+
+        <Button
+            android:id="@+id/btn_check"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_red_solid"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Check"
+            android:textColor="@color/pureWhite"
+            android:textSize="@dimen/btn_font_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/ll_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="25dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text=""
+                android:textColor="@color/pureWhite"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rg_operator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/rb_skitoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_skitto"
+                    android:text="@string/skitto_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big"
+                    android:visibility="gone"/>
+
+                <RadioButton
+                    android:id="@+id/rb_bkash_ghoori"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_gr"
+                    android:text="@string/bk_gr_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big" />
+
+                <RadioButton
+                    android:id="@+id/rb_bkash_onmobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_on"
+                    android:text="@string/bk_on_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big" />
+
+                <RadioButton
+                    android:id="@+id/rb_gp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_gp"
+                    android:text="@string/gp_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big"
+                    android:visibility="gone"/>
+
+                <RadioButton
+                    android:id="@+id/rb_robi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_rb"
+                    android:text="@string/rb_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big" />
+
+                <RadioButton
+                    android:id="@+id/rb_blink"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:buttonTint="@color/buttonColor"
+                    android:gravity="start"
+                    android:paddingTop="5dp"
+                    android:tag="@string/tag_bl"
+                    android:text="@string/bl_message_en"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="@dimen/font_size_big" />
+            </RadioGroup>
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rounded_red_solid"
+                android:text="Submit"
+                android:textColor="@color/pureWhite"
+                android:textSize="@dimen/btn_font_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

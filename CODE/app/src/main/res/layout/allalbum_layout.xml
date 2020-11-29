@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/albumBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/allalbum"/>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableGridView
+        android:id="@+id/albumLists"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:horizontalSpacing="3dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/albumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:textColor="@color/pureWhite"
+        android:text="No Data" />
+
+</RelativeLayout>

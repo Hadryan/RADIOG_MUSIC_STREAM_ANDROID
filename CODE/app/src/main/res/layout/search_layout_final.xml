@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:background="@drawable/songlist_background"
+            android:fillViewport="true"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         >
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+    <EditText
+        android:id="@+id/search_text"
+        android:textColor="#f0f0f0"
+        android:drawableLeft="@drawable/search"
+        android:imeOptions="actionSearch"
+        android:background="@drawable/list_transparent_background"
+        android:hint="Enter Text Here"
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:layout_marginBottom="10dp"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:popupTheme="@style/AppTheme.NoActionBar"/>
+
+
+
+
+    <TextView
+        android:text="Album"
+        android:gravity="center"
+        android:id="@+id/search_albumText"
+        android:layout_gravity="center"
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/songlist_background"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:id="@+id/search_albumList"
+        android:layout_below="@+id/search_albumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"></ListView>
+
+        <Button
+            android:id="@+id/m_album"
+
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="@string/max_text"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/songlist_background"
+            android:layout_margin="10dp"
+
+            />
+
+    <TextView
+        android:id="@+id/search_artistText"
+        android:text="Artist"
+        android:gravity="center"
+        android:layout_below="@+id/search_albumList"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/songlist_background"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:id="@+id/search_artistList"
+        android:layout_below="@+id/search_artistText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"></ListView>
+        <Button
+            android:id="@+id/m_artist"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="@string/max_text"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/songlist_background"
+            android:layout_margin="10dp"
+
+            />
+
+    <TextView
+        android:id="@+id/search_lyricsText"
+        android:text="Lyrics "
+        android:layout_below="@+id/search_artistList"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/songlist_background"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:id="@+id/search_lyricsList"
+        android:layout_below="@+id/search_lyricsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"></ListView>
+        <Button
+            android:id="@+id/m_lyrics"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="@string/max_text"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/songlist_background"
+            android:layout_margin="10dp"
+
+
+            />
+
+    <TextView
+        android:id="@+id/search_tuneText"
+        android:text="Tune"
+        android:gravity="center"
+        android:layout_below="@+id/search_lyricsList"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/songlist_background"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:id="@+id/search_tuneList"
+        android:layout_below="@+id/search_tuneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"></ListView>
+        <Button
+            android:id="@+id/m_tune"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+
+            android:text="@string/max_text"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/songlist_background"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+
+            />
+
+    <TextView
+        android:text="Tracks"
+        android:id="@+id/search_trackText"
+        android:gravity="center"
+        android:layout_below="@id/search_tuneList"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/songlist_background"
+        android:layout_marginBottom="10dp"/>
+    <ListView
+        android:id="@+id/search_trackList"
+        android:layout_below="@+id/search_trackText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+    </ListView>
+        <Button
+            android:id="@+id/m_track"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="@string/max_text"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/songlist_background"
+            android:layout_margin="10dp"
+
+        />
+        </LinearLayout>
+  </LinearLayout>
+
+
+</ScrollView>

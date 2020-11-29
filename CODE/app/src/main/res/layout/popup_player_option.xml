@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/v_arrow"
+        android:layout_width="20dp"
+        android:layout_height="10dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/popover_back"
+        android:padding="7dp">
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_share"
+                android:tint="@color/buttonColor"/>
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Share"
+                android:textColor="@color/pureWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/btn_font_size"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/buttonColor"/>
+
+        <LinearLayout
+            android:id="@+id/ll_offline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_download"
+                android:tint="@color/buttonColor"/>
+            <TextView
+                android:id="@+id/tv_offline"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Save Offline"
+                android:textColor="@color/pureWhite"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textSize="@dimen/btn_font_size"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

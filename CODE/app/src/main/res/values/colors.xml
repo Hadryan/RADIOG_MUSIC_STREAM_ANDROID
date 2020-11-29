@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#021322</color>
+    <color name="colorPrimaryDark">#021322</color>
+    <color name="colorTransparent">#aa0a0a0a</color>
+    <color name="colorTab">#0a0a0a</color>
+    <color name="tabIndicator">#EF0000</color>
+    <color name="tabTextColor">#FEFEFE</color>
+    <color name="tabSelectedTextColor">#A0A0FF</color>
+    <color name="playerLayer">#6616214b</color>
+    <color name="playerTitle">#66020d30</color>
+    <color name="albumBottom">#081D36</color>
+
+    <!--
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+    <color name="primary_text">#f9445e</color>
+    <color name="secondary_text">#FAFAFA</color>
+    <color name="text_album">#61B8FF</color>
+    <color name="icons">#ffffff</color>
+    <color name="divider">#b6b6b6</color>
+    <color name="colorAccent">#f81c51</color>
+    <color name="colorNevigationDrawer">#031227</color>
+    <color name="checkBoxColor">#EF0000</color>
+
+
+    <color name="sideMenuBackground">#040c17</color>
+    <color name="imageBorderColor">#072549</color>
+    <color name="cardViewBackgroundColor">#031221</color>
+    <color name="barStartingColor">#081d35</color>
+    <color name="barEndingColor">#031221</color>
+    <color name="buttonColor">#f81c51</color>
+    <color name="buttonColor50">#80f81c51</color>
+
+
+    <!-- External Color Code -->
+    <color name="deepRed">#8a0b13</color>
+    <color name="deepYellow">#f0d7a1</color>
+    <color name="mixWhite">#FFCFA4</color>
+    <color name="pureWhite">#FFFFFF</color>
+    <color name="pureWhiteLight">#80FFFFFF</color>
+    <color name="ash">#99938E</color>
+    <color name="ash_transparent">#9999938E</color>
+    <color name="dot_not_active">#666666</color>
+    <color name="dot_active">#E0E0E0</color>
+    <color name="ashLight">#D3CCC6</color>
+    <color name="fbcolor">#3b5998</color>
+    <color name="gcolor">#d34836</color>
+    <color name="bg_color">#F0D7A1</color>
+    <color name="bg_color_40">#1AF0D7A1</color>
+    <color name="red_btn_color">#D32F2F</color>
+    <color name="fab_color">#e93932</color>
+    <color name="red_btn_color_pressed">#A30A0A</color>
+    <color name="black">#262626</color>
+    <color name="label_back">#B4A179</color>
+    <color name="yellow_normal">#FFC858</color>
+    <color name="yellow_pressed">#FF9D1E</color>
+    <color name="paste_normal">#16A086</color>
+    <color name="paste_pressed">#026446</color>
+    <color name="blue_normal">#2B80B9</color>
+    <color name="blue_pressed">#074086</color>
+    <color name="orange_normal">#E77E23</color>
+    <color name="orange_pressed">#D13E05</color>
+    <color name="green_normal">#27AE61</color>
+    <color name="green_pressed">#067725</color>
+    <color name="dpyellow_normal">#F49A10</color>
+    <color name="dpyellow_pressed">#E95D01</color>
+    <color name="ltred_normal">#E64D3D</color>
+    <color name="ltred_pressed">#CF170F</color>
+    <color name="dporange_normal">#D25400</color>
+    <color name="dporange_pressed">#AD1C00</color>
+    <color name="dpred_normal">#C0382A</color>
+    <color name="dpred_pressed">#910C07</color>
+    <color name="nav_selected_color">#4D6D6161</color>
+    <color name="color_alizarin">#e74c3c</color>
+    <color name="grid_text_back">#CCCCCC</color>
+    <color name="live_color">#a1c900</color>
+    <color name="not_live_color">#848688</color>
+    <color name="success_color">#78b348</color>
+    <color name="pure_black">#66000000</color>
+    <color name="dark_green">#418725</color>
+    <color name="dark_blue">#3C5A99</color>
+    <color name="light_red">#DD5044</color>
+</resources>

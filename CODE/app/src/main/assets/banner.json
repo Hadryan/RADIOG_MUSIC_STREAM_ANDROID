@@ -1,0 +1,26 @@
+[
+  {
+    "browse": "EXTERNAL",
+    "browse_uri_inapp": "0",
+    "browse_uri_external": "http://quiz.radiogbd.com",
+    "uri_banner": "http://www.radiogbd.com/images/logo.png"
+  },
+  {
+    "browse": "INAPP",
+    "browse_uri_inapp": "HITS",
+    "browse_uri_external": "0",
+    "uri_banner": "http://www.radiogbd.com/images/logo.png"
+  },
+  {
+    "browse": "INAPP",
+    "browse_uri_inapp": "PLAY-1-2",
+    "browse_uri_external": "0",
+    "uri_banner": "http://www.radiogbd.com/images/logo.png"
+  },
+  {
+    "browse": "INAPP",
+    "browse_uri_inapp": "SEARCH-ANILA",
+    "browse_uri_external": "0",
+    "uri_banner": "http://www.radiogbd.com/images/logo.png"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "191845528227",
+    "firebase_url": "https://radiog-3d6fb.firebaseio.com",
+    "project_id": "radiog-3d6fb",
+    "storage_bucket": "radiog-3d6fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191845528227:android:f0ba60da27fbeaaf",
+        "android_client_info": {
+          "package_name": "com.radiogbd.streaming.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191845528227-d8o3g2qc29rnqrgmil9unnonlbl58adn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQ69J4KMiW-S-7YXN-E3JJJOu9exqaas"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/ripple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mrl_rippleOverlay="true"
+        app:mrl_rippleColor="@color/pureWhite"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleDimension="10dp">
+
+        <RelativeLayout
+            android:id="@+id/songLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/song_list_back"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/songNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp"
+                    android:text="1"
+                    android:textColor="@color/pureWhite"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/songTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Song Title"
+                        android:textColor="@color/pureWhite"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/songArtist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="Artist Name"
+                        android:textColor="@color/pureWhite"
+                        android:textSize="10sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/moreOption"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_more_options"
+                    android:tint="@color/buttonColor" />
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/pureWhite" />
+
+                <ImageView
+                    android:id="@+id/playSong"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_play_button"
+                    android:tint="@color/buttonColor" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/premium"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ribbon"
+                android:visibility="gone"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/free"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ribbon_free"
+                android:visibility="gone"
+                android:scaleType="fitXY"/>
+        </RelativeLayout>
+
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1px"-->
+    <!--android:background="@color/pureWhite"/>-->
+
+</LinearLayout>

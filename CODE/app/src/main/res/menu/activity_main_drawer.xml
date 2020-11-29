@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            />
+        </group>
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_hits"
+                android:title="Hits"
+                >
+            </item>
+            <item
+                android:id="@+id/freeZone"
+                android:title=" Selected" />
+            <item
+                android:id="@+id/nav_Mylist"
+                android:title=" Mylist" />
+        </menu>
+    </item>
+
+   <item android:title="">
+       <menu>
+           <item
+               android:id="@+id/nav_collection"
+
+               android:title=" Exclusive Collection" />
+           <item
+               android:id="@+id/nav_album"
+
+               android:title=" New Album" />
+           <item
+               android:id="@+id/nav_Catagories"
+
+               android:title=" Catagories" />
+       </menu>
+   </item>
+
+
+        <!--<item-->
+        <!--android:id="@+id/nav_service_reg"-->
+        <!--android:theme="@style/MyAppTheme"-->
+        <!--android:title=" Service Registration" />-->
+
+
+        <item
+            android:id="@+id/nav_language"
+
+            android:title=" Language" >
+        </item>
+
+    <item
+        android:id="@+id/nav_subscription"
+        android:title=" Subscription" >
+    </item>
+
+
+
+</menu>

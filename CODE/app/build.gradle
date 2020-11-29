@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.radiogbd.streaming.apps"
+        minSdkVersion 16
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
+        }
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.libraryVersion"
+    implementation "com.android.support:design:$rootProject.ext.libraryVersion"
+    implementation "com.android.support:support-v4:$rootProject.ext.libraryVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.ext.libraryVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.libraryVersion"
+
+    implementation 'me.relex:circleindicator:1.2.2@aar'
+    implementation 'com.google.code.gson:gson:2.8.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.1'
+    implementation 'com.squareup.okio:okio:1.13.0'
+    implementation 'com.github.stfalcon:smsverifycatcher:0.3.1'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.daimajia.slider:library:1.1.5@aar'
+    implementation 'com.github.ksoichiro:android-observablescrollview:1.5.0'
+    implementation 'com.kyleduo.switchbutton:library:2.0.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation 'com.github.warkiz.widget:indicatorseekbar:1.2.3'
+    implementation 'com.koushikdutta.ion:ion:2.+'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.7'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.9'
+    implementation 'com.github.zyyoona7:EasyPopup:1.1.2'
+    implementation 'com.baoyz.swipemenulistview:library:1.3.0'
+    implementation 'com.google.android.gms:play-services-analytics:11.8.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    implementation 'com.balysv:material-ripple:1.0.2'
+    implementation 'com.google.firebase:firebase-core:11.8.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'

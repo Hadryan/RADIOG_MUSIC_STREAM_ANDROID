@@ -1,0 +1,3088 @@
+{
+	"info": {
+		"_postman_id": "54d10997-0eec-af39-699b-1091a540d1be",
+		"name": "API.RadioG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Master API",
+			"item": [
+				{
+					"name": "View Status",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFt"
+							},
+							{
+								"key": "CARRIER",
+								"value": "BL",
+								"type": "text"
+							},
+							{
+								"key": "MOBILE",
+								"value": "8801906868794",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://api.radiogbd.com/viewstatus-0",
+							"protocol": "http",
+							"host": [
+								"api",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"viewstatus-0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "View Status bKash",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "MOBILE",
+								"type": "text",
+								"value": "8801918778899"
+							},
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+							},
+							{
+								"key": "CARRIER",
+								"value": "NA",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://dummymasterapi.radiogbd.com/bkashviewstatus",
+							"protocol": "http",
+							"host": [
+								"dummymasterapi",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"bkashviewstatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deactivation",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "MSISDN",
+								"value": "8801906868794"
+							},
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+							},
+							{
+								"key": "CARRIER",
+								"value": "ON",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://api.radiogbd.com/deactivation",
+							"protocol": "http",
+							"host": [
+								"api",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"deactivation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deactivation bKash",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "MSISDN",
+								"value": "8801738019184"
+							},
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+							},
+							{
+								"key": "OPERATOR",
+								"value": "1"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://masterapi.radiogbd.com/bkashdeactivation",
+							"protocol": "http",
+							"host": [
+								"masterapi",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"bkashdeactivation"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activation",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "MOBILE",
+								"value": "8801728426904"
+							},
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+							},
+							{
+								"key": "CARRIER",
+								"value": "BK",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://api.radiogbd.com/charge-0-0",
+							"protocol": "http",
+							"host": [
+								"api",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"charge-0-0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Activation bKash",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "gtech321",
+									"type": "string"
+								},
+								{
+									"key": "username",
+									"value": "gtech",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "MSISDN",
+								"value": "8801738019184"
+							},
+							{
+								"key": "RGTOKEN",
+								"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+							},
+							{
+								"key": "OPERATOR",
+								"value": "1"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://masterapi.radiogbd.com/bkashactivation",
+							"protocol": "http",
+							"host": [
+								"masterapi",
+								"radiogbd",
+								"com"
+							],
+							"path": [
+								"bkashactivation"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "selected",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "a3330735-476c-48dc-a7ce-7dd0683e91f3",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/selected",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"selected"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "View Status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "msisdn",
+						"value": "8801923853388"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/viewstatus",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"viewstatus"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Activation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/activation",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"activation"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Deactivation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "msisdn",
+						"value": "8801923853388"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/deactivation",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"deactivation"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "version",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "MSISDN",
+						"value": "[{\"key\":\"MSISDN\",\"value\":\"8801711080468\",\"description\":\"\",\"enabled\":true}]"
+					},
+					{
+						"key": "RGTOKEN",
+						"value": "d8v8IstS5fo:APA91bETtzmZ75wlQzB3Dunpy9Ul6rmGPiB3Axon3Y99D6B8aXgv8IPMUZRVqYEiLXaDx4MNEVgexJDctW7sPiTqfwOoEuz_MmUmBKMpGNOIeS8T74ycCpqIDzArLbmPk03NU6IDPjZrYef3xbY7PLZrJ4o0afqFtg"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://masterapi.radiogbd.com/version",
+					"protocol": "http",
+					"host": [
+						"masterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"version"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "highlight",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/highlight-2",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"highlight-2"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "free",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"value": "NA",
+						"type": "text"
+					},
+					{
+						"key": "MOBILE",
+						"value": "8801918778899",
+						"type": "text"
+					},
+					{
+						"key": "RGTOKEN",
+						"value": "duhajkdjhkas",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/free-1",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"free-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "config",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "NA"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/config",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"config"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "premium",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "GP"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801732225994"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "d00QlQwS-4s:APA91bHpjKxjMaotGTQiDZj01PtEbO2p4_aSK2rOa2EiZu3K_-OQ5DARc0qFHhFreUA21EfjqIHplc5hP9I9Y67N2xwC2aPYv0Zfhh0p63Ci3JyfQY9Jn_CJl-x5xlRnAP1-AxPBsq5o"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/premium-0",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"premium-0"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Album",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "NA"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://masterapi.radiogbd.com/get_album-423",
+					"protocol": "http",
+					"host": [
+						"masterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"get_album-423"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Get Album By Trak",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "NA"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/get_album_using_track-1",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"get_album_using_track-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "version",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "NA"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/config",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"config"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "notice",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": ""
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/notice",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"notice"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "recent",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": ""
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://dummymasterapi.radiogbd.com/recent-1",
+					"protocol": "http",
+					"host": [
+						"dummymasterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"recent-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "banner",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "578e2a79-76e9-458c-b20e-5a73fb72f14c",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE=",
+						"disabled": true
+					},
+					{
+						"key": "CARRIER",
+						"type": "text",
+						"value": "NA"
+					},
+					{
+						"key": "MOBILE",
+						"type": "text",
+						"value": "8801918778899"
+					},
+					{
+						"key": "RGTOKEN",
+						"type": "text",
+						"value": "duhajkdjhkas"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/banner",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"banner"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "my_msisdn",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/my_msisdn",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"my_msisdn"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "list_genre",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/list_genre",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"list_genre"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "list_album",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "89598da8-3775-4a6b-8f0a-e0c9a46c1a97",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "language",
+						"value": "en",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://masterapibeta.radiogbd.com/list_album-0-1",
+					"protocol": "http",
+					"host": [
+						"masterapibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"list_album-0-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "list_artist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/list_artist-0",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"list_artist-0"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Single Album",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "4a30d228-21d3-45f9-9858-6bec33ac74be",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/single_album-1",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"single_album-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "get_artist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/get_artist-442",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"get_artist-442"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "hits",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "dcf8ad1a-6879-45ff-91d2-342ef00c34e6",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/hits-1",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"hits-1"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "freezone",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/freezone",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"freezone"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "mylist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://masterapi.radiogbd.com/mylist",
+					"protocol": "http",
+					"host": [
+						"masterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"mylist"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "suggest",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/suggest",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"suggest"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "search",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "30be9e82-0d7b-417d-bf12-c6ba779fc069",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "gtech321",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "gtech",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://api.radiogbd.com/search-3-sumon",
+					"protocol": "http",
+					"host": [
+						"api",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"search-3-sumon"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "Banner",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "MSISDN_GTECH",
+						"value": "8801817898989",
+						"type": "text"
+					},
+					{
+						"key": "RGTOKEN",
+						"value": "token",
+						"type": "text"
+					},
+					{
+						"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
+						"key": "Authorization",
+						"value": "Basic Z3RlY2g6Z3RlY2gzMjE=",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Authorization",
+							"value": "Basic YWRtaW46YWRtaW4zMjE=",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://masterapi.radiogbd.com/banner",
+					"protocol": "http",
+					"host": [
+						"masterapi",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"banner"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "MSISDN_GTECH",
+						"value": "8801817898989",
+						"type": "text"
+					},
+					{
+						"key": "RGTOKEN",
+						"value": "token",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Authorization",
+							"value": "Basic YWRtaW46YWRtaW4zMjE=",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://radiogbd.com/test.php",
+					"protocol": "http",
+					"host": [
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"test.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "meet_artist",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					},
+					{
+						"key": "language",
+						"value": "bn",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/meet_artist-442",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"meet_artist-442"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "logs",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"tests[\"response code is 401\"] = responseCode.code === 401;",
+							"tests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));",
+							"",
+							"var authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),",
+							"    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,",
+							"    realmEnd = authenticateHeader.indexOf('\"',realmStart),",
+							"    realm = authenticateHeader.slice(realmStart,realmEnd),",
+							"    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,",
+							"    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),",
+							"    nonce = authenticateHeader.slice(nonceStart,nonceEnd);",
+							"    ",
+							"postman.setGlobalVariable('echo_digest_realm', realm);",
+							"postman.setGlobalVariable('echo_digest_nonce', nonce);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text"
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/log-5820-10",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"log-5820-10"
+					]
+				},
+				"description": "Performing a simple `GET` request to this endpoint returns status code `401 Unauthorized` with `WWW-Authenticate` header containing information to successfully authenticate subsequent requests.\nThe `WWW-Authenticate` header must be processed to extract `realm` and `nonce` values to hash subsequent requests.\n\nWhen this request is executed within Postman, the script attached with this request does the hard work of extracting realm and nonce from the header and set it as [global variables](https://www.getpostman.com/docs/environments#global-variables?source=echo-collection-app-onboarding) named `echo_digest_nonce` and `echo_digest_realm`.\nThese variables are re-used in subsequent request for seamless integration of the two requests."
+			},
+			"response": []
+		},
+		{
+			"name": "new album",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46YWRtaW4zMjE="
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "http://apibeta.radiogbd.com/new",
+					"protocol": "http",
+					"host": [
+						"apibeta",
+						"radiogbd",
+						"com"
+					],
+					"path": [
+						"new"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
